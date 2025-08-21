@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="indice">Índice</h2>
+    <p>No índice abaixo estão os principais tópicos estudados neste módulo:</p>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores</h2>
+    <p>
+        A <strong>história dos computadores</strong> começou muito antes dos aparelhos modernos. 
+        No século XIX, <u>Charles Babbage</u> criou o projeto da <i>Máquina Analítica</i>, considerada um dos 
+        primeiros modelos de computador. Mais tarde, durante a década de 1940, foi criado o 
+        <mark>ENIAC</mark>, o primeiro computador eletrônico de propósito geral.
+    </p>
+    <p>
+        Desde então, os computadores evoluíram em gerações, passando do uso de <strong>válvulas</strong>, 
+        depois <i>transistores</i>, chegando aos <u>microprocessadores</u> e à <abbr title="Inteligência Artificial">IA</abbr>. 
+        Eles estão presentes em nosso dia a dia, de celulares a supermáquinas de pesquisa científica.
+    </p>
+    <p><a href="#indice">🔝 Voltar ao índice</a></p>
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <p>
+        Um <i>Client</i> é um <strong>dispositivo</strong> ou <strong>programa</strong> que consome serviços oferecidos por um servidor. 
+        Por exemplo, quando usamos um navegador como o <u>Google Chrome</u> para acessar um site, ele age como cliente. 
+        O client envia uma solicitação e recebe a resposta do <i>server</i>.
+    </p>
+    <p>
+        Sem os <i>clients</i>, não seria possível acessar páginas da web, e-mails ou consumir conteúdo online. 
+        Eles são fundamentais na arquitetura de redes.  
+        <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Client-Server_overview" target="_blank">Saiba mais</a>.
+    </p>
+    <p><a href="#indice">🔝 Voltar ao índice</a></p>
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <p>
+        Um <i>Server</i> é um <strong>computador</strong> ou <strong>sistema</strong> responsável por fornecer serviços, dados ou 
+        recursos para os clientes. Exemplos comuns são os servidores de <u>arquivos</u>, servidores de <i>e-mail</i> e servidores de <i>web</i>. 
+    </p>
+    <p>
+        Sem os servidores, não seria possível hospedar sites ou compartilhar informações em rede. 
+        Um exemplo simples: quando acessamos o <strong>Google</strong>, nossos navegadores (clients) enviam uma solicitação, 
+        e os servidores do Google processam e devolvem o resultado.
+    </p>
+    <p><a href="#indice">🔝 Voltar ao índice</a></p>
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <p>
+        Um documento HTML possui uma <strong>estrutura básica</strong>, composta por:
+    </p>
+    <ul>
+        <li><strong>&lt;!DOCTYPE html&gt;</strong> → indica que o documento segue o padrão HTML5.</li>
+        <li><strong>&lt;html&gt;</strong> → elemento raiz que envolve todo o conteúdo.</li>
+        <li><strong>&lt;head&gt;</strong> → contém informações sobre o documento (como título e metadados).</li>
+        <li><strong>&lt;body&gt;</strong> → é onde fica o <u>conteúdo visível</u> da página.</li>
+    </ul>
+    <p>
+        Exemplo mínimo de um HTML válido:
+    </p>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="pt-BR"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Exemplo&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Olá Mundo!&lt;/h1&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><a href="#indice">🔝 Voltar ao índice</a></p>
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>
+        As listas são muito utilizadas no HTML. Existem dois tipos principais:
+    </p>
+    <ul>
+        <li><strong>Listas ordenadas (&lt;ol&gt;)</strong>: apresentam os itens numerados.</li>
+        <li><strong>Listas não ordenadas (&lt;ul&gt;)</strong>: apresentam os itens com marcadores (bolinhas).</li>
+    </ul>
+
+    <p>Exemplo de lista ordenada:</p>
+    <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <p>Exemplo de lista não ordenada:</p>
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <p><a href="#indice">🔝 Voltar ao índice</a></p>
+
+    <h2 id="referencias">Links de referências</h2>
+    <ul>
+        <li><a href="https://www.computerhistory.org" target="_blank">Computer History Museum</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_dos_computadores" target="_blank">História dos Computadores - Wikipédia</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">Mozilla Developer Network</a></li>
+        <li><a href="https://www.w3.org/" target="_blank">W3C</a></li>
+    </ul>
+    <p><a href="#indice">🔝 Voltar ao índice</a></p>
+
+</body>
+</html>
